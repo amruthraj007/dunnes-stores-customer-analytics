@@ -1,62 +1,158 @@
-📘 Dunnes Stores – Customer Insights Case Study
+Dunnes Stores – Customer Insights & Campaign Response Analysis
+A SQL + Tableau Customer Analytics Portfolio Project
 
-Customer Insights & Campaign Analytics
+------------------------------------------------------------
+PROJECT OVERVIEW
+------------------------------------------------------------
+This project is a complete end-to-end customer insights analysis inspired by Dunnes Stores,
+one of Ireland’s largest retail chains. The goal was to understand customer behaviour across
+spending, engagement, and marketing campaign response using:
 
-⭐ Project Overview: This project is an end-to-end customer analytics study focused on understanding campaign response, spending behaviour, and engagement patterns for a retail environment inspired by Dunnes Stores, one of Ireland’s leading retailers. The analysis uses SQL for data preparation and Tableau for visual insights.
+- SQL → Data cleaning, validation, feature engineering & segmentation
+- Tableau → Visual exploration & interactive dashboards
+- Maven Analytics dataset → Customer demographics, purchases, and campaign history
 
-🔎 One-Line Summary: An analytics project exploring customer behaviour, spend patterns, engagement, and campaign performance using a structured SQL pipeline and Tableau dashboards.
+This project reflects real-world analytics work: cleaning imperfect data, building clear
+transformation logic, segmenting customers, and presenting insights through dashboards and
+a written case study.
 
-🏬Business Context: Dunnes Stores operates across grocery, apparel, and home goods, with strong customer loyalty and both online and in-store channels. For retailers of this scale, understanding customer engagement is essential for:
+------------------------------------------------------------
+BUSINESS GOAL
+------------------------------------------------------------
+Retailers frequently run promotional campaigns, but it’s not always clear who is responding
+or what drives engagement. For Dunnes Stores, the challenges include:
 
-Improving campaign ROI
-Identifying high-value segments
-Reducing marketing waste
-Strengthening retention strategies
-❗ Business Problem: Retailers like Dunnes Stores often struggle with:
+- Limited visibility on high- vs low-engagement customers
+- Understanding how spending relates to demographics and tenure
+- Improving campaign targeting
+- Reducing marketing wastage
+- Identifying high-value, responsive customer segments
 
-Limited visibility into engaged vs. at-risk customers
-Poor understanding of how recency, tenure, and demographics affect spend
-Weak targeting due to unclear campaign response patterns
-Inefficient allocation of marketing budgets
-Difficulty identifying repeat responders and loyal segments
-This project addresses these problems using a structured and data-driven pipeline.
+This project answers these questions using a structured analytics workflow.
 
-🎯Project Objectives:
+------------------------------------------------------------
+PROJECT OBJECTIVES
+------------------------------------------------------------
+1. Build a clean, reliable customer dataset
+2. Engineer behavioural features (spend, purchases, tenure, recency)
+3. Segment customers based on activity and engagement
+4. Analyse campaign response patterns
+5. Deliver insights through dashboards & a case study
 
-Build a clean and enriched customer dataset
-Engineer behavioural and demographic features
-Segment customers by spending, recency, and campaign history
-Analyse trends in purchases, engagement, and response
-Deliver actionable insights for marketing and retention
-📂Dataset Overview:
+------------------------------------------------------------
+TOOLS USED
+------------------------------------------------------------
+- SQL (MySQL) – Data validation, cleaning, feature engineering, segmentation
+- Tableau – Interactive dashboards & insight exploration
+- Excel / Word – Documentation & visualisation planning
+- GitHub – Version control & portfolio presentation
 
-Dataset: Retail Customer Dataset – Maven Analytics Records: 2,216 customers → 2,206 valid customers after cleaning Variables: 29 fields, including:
+------------------------------------------------------------
+TABLEAU DASHBOARDS
+------------------------------------------------------------
+1. Customer Overview Dashboard
+   - Spending, demographics, tenure, household profile
 
-Demographics (age, education, marital status)
-Household structure
-Income
-Purchase spend across product categories
-Channel usage (web, store, catalogue)
-Recency & tenure
-Campaign response history
-🛠 Tools Used:
+2. Behaviour & Engagement Dashboard
+   - Purchases, web interactions, and recency segments
 
-SQL (MySQL) – Data validation, cleaning, feature engineering, segmentation
-Tableau – Dashboards and visual insight generation
-Excel / Documentation – Supporting narrative and checks
-🔄 High-Level Workflow:
+3. Campaign Response Dashboard
+   - Responder types, acceptance trends, high-value segments
 
-Data Understanding
-Data Cleaning & Standardisation
-Feature Engineering
-Enrichment & Segmentation
-Exploratory Behavioural Analysis
-Campaign Performance Analysis
-Dashboard Development & Insight Generation
-🧩 Stakeholder Value: This project helps Dunnes Stores (or similar retailers) to:
+------------------------------------------------------------
+DATA USED
+------------------------------------------------------------
+The dataset comes from Maven Analytics and includes:
 
-Identify loyal vs. at-risk customer groups
-Understand spend behaviour by demographics & geography
-Improve efficiency of marketing campaigns
-Target high-value repeat responders
-Support leadership decisions with data-driven insights
+- Customer demographics
+- Household structure
+- Spending across six product categories
+- Store, web, and catalogue purchases
+- Tenure and recency
+- Campaign engagement (5 historical + 1 latest)
+
+Files included in this repository:
+- data/marketing_data.csv
+- data/marketing_data_dictionary.csv
+
+------------------------------------------------------------
+SQL PIPELINE
+------------------------------------------------------------
+The SQL workflow includes:
+
+- Raw data inspection
+- Missing value checks
+- Cleaning and standardising categories
+- Feature engineering
+- Segmentation logic
+- Analytical summaries used in Tableau
+
+Full SQL script:
+sql/dunnes_customer_analysis.sql
+
+------------------------------------------------------------
+REPOSITORY STRUCTURE
+------------------------------------------------------------
+dunnes-customer-insights-case-study/
+│
+├── README.md
+├── data/
+│   ├── marketing_data.csv
+│   └── marketing_data_dictionary.csv
+├── sql/
+│   └── dunnes_customer_analysis.sql
+├── dashboards/
+│   ├── dashboard_1.png
+│   ├── dashboard_2.png
+│   ├── dashboard_3.png
+│   └── dunnes_dashboard.twbx
+├── documentation/
+│   ├── Final_Case_Study_DunnesStores.pdf
+│   └── Final_Case_Study_DunnesStores.docx
+└── assets/
+    └── dunnes_logo.png
+
+------------------------------------------------------------
+KEY INSIGHTS
+------------------------------------------------------------
+- Married & highly educated customers spend the most
+- Portugal shows the highest campaign acceptance
+- Active customers (Recency ≤ 30) spend significantly more
+- Repeat Responders are the most valuable high-engagement group
+- Dormant customers represent a reactivation opportunity
+- New Responders are a promising emerging segment
+
+------------------------------------------------------------
+FULL CASE STUDY DOCUMENT
+------------------------------------------------------------
+Available in:
+documentation/Final_Case_Study_DunnesStores.pdf
+
+------------------------------------------------------------
+HOW TO RUN THIS PROJECT
+------------------------------------------------------------
+1. Run SQL pipeline (MySQL / compatible DBMS)
+   → sql/dunnes_customer_analysis.sql
+
+2. Import cleaned tables into Tableau
+   → customers_cleaned and customers_enriched
+
+3. Open the Tableau workbook
+   → dashboards/dunnes_dashboard.twbx
+
+------------------------------------------------------------
+ABOUT THIS PROJECT
+------------------------------------------------------------
+This project demonstrates:
+
+- Real-world SQL data wrangling
+- Customer segmentation
+- Tableau dashboard creation
+- Analytical storytelling
+- Business decision-making with data
+
+------------------------------------------------------------
+CREDITS
+------------------------------------------------------------
+Dataset provided by Maven Analytics.
+Project inspired by real Irish retail analysis, contextualised for Dunnes Stores.
