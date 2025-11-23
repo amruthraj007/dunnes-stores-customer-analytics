@@ -102,9 +102,9 @@ dunnes-customer-insights-case-study/
 ├── sql/
 │   └── dunnes_customer_analysis.sql
 ├── dashboards/
-│   ├── dashboard_1.png
-│   ├── dashboard_2.png
-│   ├── dashboard_3.png
+│   ├── Customer Overview Dashboard.png
+│   ├── Behaviour & Engagement Dashboard.png
+│   ├── Campaign Response Dashboard.png
 │   └── dunnes_dashboard.twbx
 ├── documentation/
 │   ├── Final_Case_Study_DunnesStores.pdf
@@ -156,3 +156,4 @@ CREDITS
 ------------------------------------------------------------
 Dataset provided by Maven Analytics.
 Project inspired by real Irish retail analysis, contextualised for Dunnes Stores.
+
