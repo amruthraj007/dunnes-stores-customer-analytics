@@ -48,11 +48,21 @@ TOOLS USED
 - GitHub – Version control & portfolio presentation
 
 ------------------------------------------------------------
+MY APPROACH
+------------------------------------------------------------
+1. Audited raw data for missing values, invalid categories, and unrealistic ages/incomes.  
+2. Built a cleaned customer table with realistic ages (18–90) and income range (€5k–€250k).  
+3. Engineered features such as total spend, total purchases, tenure, and household size.  
+4. Created segmentation (Recency buckets, Responder types, Ever-Accepted flag).  
+5. Wrote analytical SQL queries to summarise behaviour and campaign performance.  
+6. Connected the enriched dataset to Tableau and designed three dashboards.  
+7. Consolidated findings into business insights and actionable recommendations.
+
+------------------------------------------------------------
 TABLEAU DASHBOARDS
 ------------------------------------------------------------
 1. Customer Overview Dashboard 
    - Spending, demographics, tenure, household profile
-![Customer Demographics Dashboard](dashboards/dashboard_1.png)
 
 2. Behaviour & Engagement Dashboard
    - Purchases, web interactions, and recency segments
@@ -124,6 +134,15 @@ KEY INSIGHTS
 - New Responders are a promising emerging segment
 
 ------------------------------------------------------------
+RECOMMENDATIONS
+------------------------------------------------------------
+- Prioritise highly educated, long-tenure customers for premium and loyalty campaigns.  
+- Launch a reactivation programme for Dormant customers who still show above-average spend.  
+- Focus cross-sell and upsell offers on Active customers (highest response rate and spend).  
+- Localise campaigns for high-performing regions (e.g. Portugal / other top countries in your data).  
+- Use campaign response + recency + tenure to build a simple “Customer Value Score” for targeting.
+
+------------------------------------------------------------
 FULL CASE STUDY DOCUMENT
 ------------------------------------------------------------
 Available in:
@@ -142,20 +161,16 @@ HOW TO RUN THIS PROJECT
    → dashboards/dunnes_dashboard.twbx
 
 ------------------------------------------------------------
-ABOUT THIS PROJECT
+ABOUT ME
 ------------------------------------------------------------
-This project demonstrates:
-
-- Real-world SQL data wrangling
-- Customer segmentation
-- Tableau dashboard creation
-- Analytical storytelling
-- Business decision-making with data
+I'm Amruth Raj, a Data Analyst with experience in product and marketing analytics.
+This project is part of my portfolio as I apply for Data Analyst roles in Ireland.
 
 ------------------------------------------------------------
 CREDITS
 ------------------------------------------------------------
 Dataset provided by Maven Analytics.
 Project inspired by real Irish retail analysis, contextualised for Dunnes Stores.
+
 
 
