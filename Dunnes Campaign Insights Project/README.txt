@@ -50,8 +50,9 @@ TOOLS USED
 ------------------------------------------------------------
 TABLEAU DASHBOARDS
 ------------------------------------------------------------
-1. Customer Overview Dashboard
+1. Customer Overview Dashboard 
    - Spending, demographics, tenure, household profile
+![Customer Demographics Dashboard](dashboards/dashboard_1.png)
 
 2. Behaviour & Engagement Dashboard
    - Purchases, web interactions, and recency segments
@@ -156,4 +157,5 @@ CREDITS
 ------------------------------------------------------------
 Dataset provided by Maven Analytics.
 Project inspired by real Irish retail analysis, contextualised for Dunnes Stores.
+
 
